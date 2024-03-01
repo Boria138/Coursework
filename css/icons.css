@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?n555po');
+  src:  url('../fonts/icons.eot?n555po#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?n555po') format('truetype'),
+    url('../fonts/icons.woff?n555po') format('woff'),
+    url('../fonts/icons.svg?n555po#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comment-dots:before {
+  content: "\e910";
+}
+.icon-eye:before {
+  content: "\e911";
+}
+.icon-desktop:before {
+  content: "\e90c";
+}
+.icon-user-group:before {
+  content: "\e90e";
+}
+.icon-briefcase-blank:before {
+  content: "\e90f";
+}
+.icon-messages:before {
+  content: "\e900";
+}
+.icon-location-dot:before {
+  content: "\e901";
+}
+.icon-cart-shopping:before {
+  content: "\e908";
+}
+.icon-magnifying-glass:before {
+  content: "\e90a";
+}
+.icon-picture:before {
+  content: "\e90d";
+}
+.icon-alarm:before {
+  content: "\e902";
+}
+.icon-book:before {
+  content: "\e903";
+}
+.icon-bullseye:before {
+  content: "\e904";
+}
+.icon-computer:before {
+  content: "\e905";
+}
+.icon-digital:before {
+  content: "\e906";
+}
+.icon-equalizer:before {
+  content: "\e907";
+}
+.icon-home:before {
+  content: "\e909";
+}
+.icon-line-graph:before {
+  content: "\e90b";
+}
